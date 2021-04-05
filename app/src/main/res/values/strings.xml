@@ -1,0 +1,156 @@
+<resources>
+    <string name="app_name">JSB Mobile</string>
+
+    <string-array name="spin_asal_menuju_batang">
+
+        <item> Weleri </item>
+        <item> Kendal </item>
+        <item> Kaliwungu </item>
+        <item> Kalikangkung </item>
+    </string-array>
+
+    <string-array name="spin_asal_kandeman">
+        <item> Weleri </item>
+        <item> Kendal </item>
+        <item> Kaliwungu </item>
+        <item> Kalikangkung </item>
+    </string-array>
+
+    <string-array name="spin_asal_weleri">
+        <item> Kandeman </item>
+        <item> Kendal </item>
+        <item> Kaliwungu </item>
+        <item> Kalikangkung </item>
+    </string-array>
+
+    <string-array name="spin_asal_kendal">
+        <item> Kandeman </item>
+        <item> Weleri </item>
+        <item> Kaliwungu </item>
+        <item> Kalikangkung </item>
+    </string-array>
+
+    <string-array name="spin_asal_kaliwungu">
+        <item> Kandeman </item>
+        <item> Weleri </item>
+        <item> Kendal </item>
+        <item> Kalikangkung </item>
+    </string-array>
+
+    <string-array name="spin_asal_kalikangkung">
+        <item> Kandeman </item>
+        <item> Weleri </item>
+        <item> Kendal </item>
+        <item> Kaliwungu </item>
+    </string-array>
+
+
+
+
+    <string-array name="spin_asal_menuju_kandeman">
+        <item> Batang </item>
+        <item> Weleri </item>
+        <item> Kendal </item>
+        <item> Kaliwungu </item>
+        <item> Kalikangkung </item>
+    </string-array>
+
+    <string-array name="spin_asal_menuju_weleri">
+        <item> Batang </item>
+        <item> Kandeman </item>
+        <item> Kendal </item>
+        <item> Kaliwungu </item>
+        <item> Kalikangkung </item>
+    </string-array>
+
+    <string-array name="spin_asal_menuju_kendal">
+        <item> Batang </item>
+        <item> Kandeman </item>
+        <item> Weleri </item>
+        <item> Kaliwungu </item>
+        <item> Kalikangkung </item>
+    </string-array>
+
+    <string-array name="spin_asal_menuju_kaliwungu">
+        <item> Batang </item>
+        <item> Kandeman </item>
+        <item> Weleri </item>
+        <item> Kendal </item>
+        <item> Kalikangkung </item>
+    </string-array>
+
+    <string-array name="spin_asal_menuju_kalikangkung">
+        <item> Batang </item>
+        <item> Kandeman </item>
+        <item> Weleri </item>
+        <item> Kendal </item>
+        <item> Kaliwungu </item>
+    </string-array>
+
+    <string-array name="spin_jenis_etol">
+        <item> Tunai </item>
+        <item> eMDR </item>
+        <item> eBRI </item>
+        <item> eBNI </item>
+        <item> eBCA </item>
+    </string-array>
+
+    <string-array name="spin_jalur">
+        <item> Jalur A </item>
+        <item> Jalur B </item>
+    </string-array>
+
+    <string-array name="spin_jenis_kecelakaan">
+        <item> Tunggal </item>
+        <item> Ganda </item>
+        <item> Beruntun </item>
+    </string-array>
+
+    <string-array name="spin_penyebab_kecelakaan">
+        <item> Pecah Ban </item>
+        <item> Mengantuk </item>
+        <item> Kurang Antisipasi </item>
+        <item> Lain-lain </item>
+    </string-array>
+
+    <string-array name="spin_gol_kendaraan">
+        <item> Gol I </item>
+        <item> Gol II </item>
+        <item> Gol III </item>
+        <item> Gol IV-V </item>
+    </string-array>
+
+    <string-array name="spin_derek">
+        <item> Derek 1 </item>
+        <item> Derek 2 </item>
+        <item> Derek 3 </item>
+        <item> Derek 4 </item>
+        <item> Derek 5 </item>
+    </string-array>
+
+    <string-array name="spin_jenis_gangguan">
+        <item> Pecah Ban </item>
+        <item> Mesin </item>
+        <item> Diluar Mesin </item>
+    </string-array>
+
+    <string-array name="spin_lajur">
+        <item> Lajur I </item>
+        <item> Lajur II </item>
+        <item> Lajur III </item>
+        <item> Bahu Jalan dalam </item>
+        <item> Bahu Jalan luar </item>
+    </string-array>
+
+    <string-array name="spin_lajur_bahu_jalan">
+        <item> Bahu Jalan dalam </item>
+        <item> Bahu Jalan luar </item>
+    </string-array>
+
+    <string-array name="spin_lajur_345">
+        <item> Lajur I </item>
+        <item> Lajur II </item>
+        <item> Lajur III </item>
+    </string-array>
+
+</resources>

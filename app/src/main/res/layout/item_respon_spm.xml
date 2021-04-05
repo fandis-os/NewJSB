@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:weightSum="5">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_ind"
+                android:padding="10dp"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plaza Computer System (PCS)"/>
+
+            <TextView
+                android:id="@+id/tv_sub"
+                android:padding="10dp"
+                android:textSize="11sp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plaza Computer System (PCS)"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="0.8"
+            android:gravity="center"
+            android:layout_marginRight="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/tv_kondisi"
+                android:background="@drawable/bg_edit_text"
+                android:gravity="start"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="2.5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center_vertical"
+                android:padding="10dp"
+                android:textSize="12sp"
+                android:hint="Kondisi Saat Ini"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/tv_tolak_ukur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bg_edit_text"
+                android:gravity="start"
+                android:hint="Tolak Ukur"
+                android:padding="10dp"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/tv_sta"
+                android:background="@drawable/bg_edit_text"
+                android:gravity="start"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="2.5dp"
+                android:layout_marginBottom="5dp"
+                android:inputType="number"
+                android:layout_gravity="center_vertical"
+                android:padding="10dp"
+                android:textSize="12sp"
+                android:hint="STA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/tv_lajur"
+                android:background="@drawable/bg_edit_text"
+                android:gravity="start"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="2.5dp"
+                android:layout_marginBottom="5dp"
+                android:inputType="number"
+                android:layout_gravity="center_vertical"
+                android:padding="10dp"
+                android:textSize="12sp"
+                android:hint="Lajur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/tv_jalur"
+                android:background="@drawable/bg_edit_text"
+                android:gravity="start"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="2.5dp"
+                android:layout_marginBottom="5dp"
+                android:inputType="number"
+                android:layout_gravity="center_vertical"
+                android:padding="10dp"
+                android:textSize="12sp"
+                android:hint="Jalur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_kriteria"
+            android:gravity="center_vertical"
+            android:padding="5dp"
+            android:layout_weight="1.1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center|center_vertical"
+            android:text="kriteria"
+            android:weightSum="2"/>
+
+        <ImageView
+            android:id="@+id/img_submit"
+            android:layout_weight="1.1"
+            android:padding="5dp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:src="@drawable/send"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/lin_list"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".adapters.SpmSelainSatu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:weightSum="6">
+
+        <TextView
+            android:id="@+id/tv_id_penomoran"
+            android:layout_weight="1.1"
+            android:padding="10dp"
+            android:textSize="11sp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="1"/>
+
+        <TextView
+            android:id="@+id/tv_id"
+            android:visibility="gone"
+            android:layout_weight="1.1"
+            android:padding="10dp"
+            android:textSize="11sp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="1"/>
+
+        <!--        LINEAR DI GONE          -->
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_merah"
+                android:layout_weight="1.1"
+                android:padding="10dp"
+                android:textSize="11sp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="1"/>
+
+            <TextView
+                android:id="@+id/tv_kuning"
+                android:layout_weight="1.1"
+                android:padding="10dp"
+                android:textSize="11sp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="1"/>
+
+            <TextView
+                android:id="@+id/tv_hijau"
+                android:layout_weight="1.1"
+                android:padding="10dp"
+                android:textSize="11sp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="0.9"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_indikator"
+                android:padding="10dp"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plaza Computer System (PCS)"/>
+
+            <TextView
+                android:id="@+id/tv_sub_indikator"
+                android:padding="10dp"
+                android:textSize="11sp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plaza Computer System (PCS)"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="0.8"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_kon_saat_ini"
+                android:background="@drawable/bg_edit_text"
+                android:gravity="start"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="2.5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center_vertical"
+                android:padding="10dp"
+                android:textSize="12sp"
+                android:hint="Kondisi Saat Ini"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/et_tolak_ukur"
+                android:background="@drawable/bg_edit_text"
+                android:gravity="start"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center_vertical"
+                android:padding="10dp"
+                android:textSize="12sp"
+                android:hint="Tolak Ukur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+<!--        <LinearLayout-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/et_sta"-->
+<!--                android:background="@drawable/bg_edit_text"-->
+<!--                android:gravity="start"-->
+<!--                android:inputType="number"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:layout_marginRight="2.5dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:layout_gravity="center_vertical"-->
+<!--                android:padding="10dp"-->
+<!--                android:textSize="12sp"-->
+<!--                android:hint="STA"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"/>-->
+
+<!--            <LinearLayout-->
+<!--                android:padding="6dp"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:layout_marginLeft="2.5dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:layout_gravity="center_vertical"-->
+<!--                android:background="@drawable/bg_edit_text"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content">-->
+
+<!--                <Spinner-->
+<!--                    android:id="@+id/spinner_jalur"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"/>-->
+
+<!--            </LinearLayout>-->
+
+<!--        </LinearLayout>-->
+
+        <LinearLayout
+            android:id="@+id/lin"
+            android:gravity="center_vertical"
+            android:padding="15dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <EditText
+                android:id="@+id/et_lokasi"
+                android:background="@drawable/bg_edit_text"
+                android:gravity="start"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center_vertical"
+                android:padding="10dp"
+                android:textSize="12sp"
+                android:hint="KM ...+..."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/radio_kondisi"
+            android:gravity="center_vertical"
+            android:padding="15dp"
+            android:layout_weight="1.1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:weightSum="2">
+
+            <RadioButton
+                android:id="@+id/radio_merah"
+                android:gravity="center"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="4dp"
+                android:textColor="#fff"
+                android:background="@drawable/rd_merah"
+                android:button="@android:color/transparent"
+                android:textSize="14sp"
+                android:layout_weight="1"/>
+
+            <RadioButton
+                android:id="@+id/radio_hijau"
+                android:gravity="center"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="4dp"
+                android:textColor="#fff"
+                android:background="@drawable/rd_hijau"
+                android:button="@android:color/transparent"
+                android:textSize="14sp"
+                android:layout_weight="1"/>
+
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/img_submit"
+            android:layout_weight="1.1"
+            android:padding="5dp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:src="@drawable/send"/>
+
+    </LinearLayout>
+
+</LinearLayout>

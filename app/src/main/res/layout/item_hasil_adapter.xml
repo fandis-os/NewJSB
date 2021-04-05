@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="5"
+    android:padding="10dp"
+    tools:context=".adapters.AdapterHasilSpm">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_kat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kat"/>
+
+        <TextView
+            android:id="@+id/tv_ind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ind"/>
+
+        <TextView
+            android:id="@+id/tv_sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sub"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/tv_kondisi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kondisi"/>
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/tv_tolak_ukur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tolak Ukur"/>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_kriteria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kriteria"/>
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Proses"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_sta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KM"/>
+
+        <TextView
+            android:id="@+id/tv_lajur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lajur"/>
+
+        <TextView
+            android:id="@+id/tv_jalur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jalur"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

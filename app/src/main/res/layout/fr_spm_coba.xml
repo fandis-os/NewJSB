@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragspm.FrSpmCoba">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:background="@color/tab_background_selected"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:weightSum="6">
+
+            <TextView
+                android:id="@+id/tv_id"
+                android:layout_weight="1.1"
+                android:padding="10dp"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="No"/>
+
+            <TextView
+                android:id="@+id/tv_indikator"
+                android:layout_weight="0.9"
+                android:padding="10dp"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Indikator"/>
+
+            <TextView
+                android:id="@+id/et_kon_saat_ini"
+                android:layout_weight="0.8"
+                android:gravity="start"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="2.5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center_vertical"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textSize="12sp"
+                android:text="Kondisi Saat Ini &amp; Tolak Ukur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/et_lokasi"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="2.5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center_vertical"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textSize="12sp"
+                android:text="Lokasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_weight="1.1"
+                android:gravity="start"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="2.5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center_vertical"
+                android:padding="10dp"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:text="Penilaian"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/img_submit"
+                android:layout_weight="1.1"
+                android:padding="5dp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycle_alat_tol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
